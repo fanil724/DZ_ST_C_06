@@ -6,6 +6,7 @@
 #include "Base.hpp"
 #include "ReadFile.hpp"
 #include "Sstring.hpp"
+#include "BitString.hpp"
 
 
 int main() {
@@ -78,5 +79,15 @@ int main() {
 //    fd.Print();
 //    std::cout << (s != s5);
 
-
+    BitString bit("101010");
+    bit.Print();
+    BitString b("10101011111000");
+    b.Print();
+    BitString bop;
+    bop = bit + b;
+    bop.Print();
+    bit += bop;
+    bit.Print();
+    bit = b;
+    bit.Print();
 }

@@ -22,7 +22,7 @@ public:
         delete[] S;
     }
 
-    void claen() {
+    void clear() {
         delete[] S;
         S = new char[1];
         light_ = 0;
@@ -76,7 +76,7 @@ public:
     }
 
 
-private:
+protected:
     char *S;
     size_t light_ = 0;
 };
