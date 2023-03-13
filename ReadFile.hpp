@@ -47,7 +47,7 @@ public:
         std::getline(file, s);
         for (int c: s) {
             std::bitset<8> bs(c);
-            std::cout << bs;
+            std::cout << bs<<" ";
         }
 
         std::cout << std::endl;

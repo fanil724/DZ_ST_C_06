@@ -5,6 +5,7 @@
 #include "Shape.hpp"
 #include "Base.hpp"
 #include "ReadFile.hpp"
+#include "Sstring.hpp"
 
 
 int main() {
@@ -56,12 +57,26 @@ int main() {
 //    Child2<int, int, int, int> c;
 //    c.Print();
 
-    ReadFile r;
-    r.Display();
+//    ReadFile r;
+//    r.Display();
+//
+//    ReadFileAS read;
+//    read.Display();
+//
+//    ReadFileBIN rd;
+//    rd.Display();
 
-    ReadFileAS read;
-    read.Display();
+//    Sstring s("Hello my frends");
+//    std::cout << s.size() << std::endl;
+//    s.Print();
+//    Sstring s5("Hello IT-WORK");
+//    std::cout << s5.size() << std::endl;
+//    s5.Print();
+//    Sstring fd(s + s5);
+//    s.Print();
+//    s5.Print();
+//    fd.Print();
+//    std::cout << (s != s5);
 
-    ReadFileBIN rd;
-    rd.Display();
+
 }
